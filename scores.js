@@ -61,9 +61,3 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 });
-
-// textBody(req, res, (err, requestBody) => {
-//     resources[req.url] = requestBody;
-//     const responseBody = resources[req.url];
-//     res.end(responseBody)
-//   })
